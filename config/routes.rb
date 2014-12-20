@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'ideas#index'
   resources :ideas
 
   # The priority is based upon order of creation: first created -> highest priority.
